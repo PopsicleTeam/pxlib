@@ -169,14 +169,17 @@ dist
 .pnp.\*
 
 # IntelliJ based IDEs
+
 .idea
 
 # Finder (MacOS) folder config
+
 .DS_Store
 
-# bun
-bun.lock*
+# Backups
 
-#zed
-.zed/
-arduino_cli/
+*backup
+
+# Zed Editor
+
+.zed
